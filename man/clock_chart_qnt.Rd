@@ -4,7 +4,7 @@
 \alias{clock_chart_qnt}
 \title{Clock Chart, Length and Color Modified by Numeric Variables}
 \usage{
-clock_chart_qnt(data, time, len, Col, high = "red", low = "green")
+clock_chart_qnt(data, time, len, Col = NULL, high = "red", low = "green")
 }
 \arguments{
 \item{data}{A data frame}
@@ -15,13 +15,14 @@ or \code{9:3}).}
 
 \item{len}{The numeric vector by which hands will be modified and colored.}
 
-\item{Col}{The color of line segments and points.}
+\item{Col}{Optional. A numeric vector to change color. This option will be
+discontinued.}
 
-\item{high}{The color name for the high values. The default is \code{red}}
+\item{high}{The color name for the high values. The default is \code{red}.}
 
-\item{low}{The color name for the high values. The default is \code{green}.
+\item{low}{The color name for the low values. The default is \code{green}.
 The color names can be vice versa or other colors, depending on the context.
-To use a single color for all lines, use same value for \code{high} and \code{low}}
+To use a single color for all lines, use same value for \code{high} and \code{low}.}
 }
 \value{
 A \code{ggplot} object, which can be further modified

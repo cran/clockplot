@@ -1,7 +1,7 @@
 Package: clockplot
 Type: Package
 Title: Plot Event Times on a 24-Hour Clock
-Version: 0.7.2
+Version: 0.8.3
 Authors@R: person(given = c("Abdullah", "Al"),
                     family = "Mahmud",
                     role = c("aut", "cre", "cph"),
@@ -14,7 +14,7 @@ Description: Provides a novel visualization technique for plotting timestamped e
     including weekly and monthly cycles, enabling effective event planning and
     pattern analysis across multiple time frames.
 License: MIT + file LICENSE
-Imports: dplyr, tidyr, tibble, ggplot2, hms
+Imports: dplyr, tidyr, tibble, ggplot2, hms, rlang
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
@@ -26,9 +26,9 @@ BugReports: https://github.com/mahmudstat/clockplot/issues
 Language: en-US
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2025-09-04 18:10:16 UTC; mahmud
+Packaged: 2025-09-13 04:46:59 UTC; mahmud
 Author: Abdullah Al Mahmud [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0003-2814-8798>)
 Maintainer: Abdullah Al Mahmud <almahmud.sbi@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-09-09 14:40:07 UTC
+Date/Publication: 2025-09-13 22:50:02 UTC
